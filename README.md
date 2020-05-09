@@ -39,7 +39,7 @@ Get your own Bing Maps API Key [here](https://docs.microsoft.com/en-us/bingmaps/
 ### Getting started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept in the CSV files in the root folder of this repo.
+2. Raw Data is kept in the CSV file in the root folder of this repo.
 3. All code is contained within the [Jupyter Notebook](https://github.com/thecraigd/Avocado-Prices/blob/master/Avocado%20Prices.ipynb) for this project, stored in the root folder as Avocado Prices.ipynb
 
 
