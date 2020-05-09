@@ -1,7 +1,7 @@
-# Avocado-Prices
-Mapping Avocado Prices in the US using Python - GeoPandas, GeoPy and Matplotlib
+# Mapping Avocado Prices in the US using Python - GeoPandas, GeoPy and Matplotlib
 
-Full explanation available at https://medium.com/@thecraigdickson/mapping-avocado-prices-in-python-with-geopandas-geopy-and-matplotlib-c7e0ef08bc26
+
+See the [blog post](https://towardsdatascience.com/mapping-avocado-prices-in-python-with-geopandas-geopy-and-matplotlib-c7e0ef08bc26) that accompanies this analysis on [Towards Data Science](https://towardsdatascience.com/mapping-avocado-prices-in-python-with-geopandas-geopy-and-matplotlib-c7e0ef08bc26).
 
 Avocado price data sourced from https://www.kaggle.com/neuromusic/avocado-prices
 
