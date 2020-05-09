@@ -1,10 +1,51 @@
 # Mapping Avocado Prices in the US using Python - GeoPandas, GeoPy and Matplotlib
+Data Analysis project mapping price data for avocados onto a map of the USA.
 
 
 See the [blog post](https://towardsdatascience.com/mapping-avocado-prices-in-python-with-geopandas-geopy-and-matplotlib-c7e0ef08bc26) that accompanies this analysis on [Towards Data Science](https://towardsdatascience.com/mapping-avocado-prices-in-python-with-geopandas-geopy-and-matplotlib-c7e0ef08bc26).
 
-Avocado price data sourced from https://www.kaggle.com/neuromusic/avocado-prices
+#### Project status - Complete
 
-Shape file sourced from https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national
+## Introduction
+The purpose of this project was to take price data for avocados and to create an attractive and understandable visualisation representing that. I wanted to get to grips with creating maps in Matplotlib, as well as using geocoding locations - taking addresses in text form and finding their coordinates, enabling them to be represented spatially.
 
-Get your own Bing Maps API Key at https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
+I also wanted to take the opportunity to pickle some data so I could gain some experience with this technique, and pull data into my notebook using APIs.
+
+### Methods used
+* EDA
+* Data visualisation
+* Geocoding
+* Geographical mapping
+
+### Technologies used
+* Jupyter Notebook
+* pandas
+* Geopandas
+* Geopy
+* Matplotlib
+* Shapely
+* pickle
+
+
+### Data Sources
+
+Avocado price data sourced from [Kaggle](https://www.kaggle.com/neuromusic/avocado-prices) - stored [here](https://github.com/thecraigd/Avocado-Prices/blob/master/avocado.csv) as avocado.csv
+
+Shape file sourced from [United States Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national) - these can be found in the [root folder](https://github.com/thecraigd/Avocado-Prices) of this repository
+
+Get your own Bing Maps API Key [here](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key)
+
+
+### Getting started
+
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. Raw Data is being kept in the CSV files in the root folder of this repo.
+3. All code is contained within the [Jupyter Notebook](https://github.com/thecraigd/Avocado-Prices/blob/master/Avocado%20Prices.ipynb) for this project, stored in the root folder as Avocado Prices.ipynb
+
+
+## Featured Notebooks
+* [Avocado Prices](https://github.com/thecraigd/Avocado-Prices/blob/master/Avocado%20Prices.ipynb)
+
+
+## Contact
+All feedback is warmly received. Craig Dickson can be contacted via [Twitter](https://twitter.com/craigdoesdata) as @craigdoesdata
