@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Avocado Prices by region in the United States</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="77f40b8c-7c7f-461b-bae5-5cef98ad26bd" data-root-id="6222"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="6628">
+          {"c9125a08-0e77-49ca-b907-5786d4eb9879":{"roots":{"references":[{"attributes":{"below":[{"id":"6233","type":"MercatorAxis"}],"center":[{"id":"6241","type":"Grid"},{"id":"6250","type":"Grid"}],"left":[{"id":"6242","type":"MercatorAxis"}],"renderers":[{"id":"6266","type":"TileRenderer"},{"id":"6271","type":"GlyphRenderer"}],"right":[{"id":"6274","type":"ColorBar"}],"title":{"id":"6223","type":"Title"},"toolbar":{"id":"6258","type":"Toolbar"},"x_range":{"id":"6225","type":"DataRange1d"},"x_scale":{"id":"6229","type":"LinearScale"},"y_range":{"id":"6227","type":"DataRange1d"},"y_scale":{"id":"6231","type":"LinearScale"}},"id":"6222","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"tooltips":[["Price","@AveragePrice"],["Region","@region"]]},"id":"6257","type":"HoverTool"},{"attributes":{},"id":"6492","type":"UnionRenderers"},{"attributes":{"dimension":1,"ticker":{"id":"6243","type":"MercatorTicker"}},"id":"6250","type":"Grid"},{"attributes":{"dimension":"lon"},"id":"6236","type":"MercatorTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":30},"x":{"field":"mercator_x"},"y":{"field":"mercator_y"}},"id":"6270","type":"Circle"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"6251","type":"PanTool"},{"id":"6252","type":"WheelZoomTool"},{"id":"6253","type":"BoxZoomTool"},{"id":"6254","type":"SaveTool"},{"id":"6255","type":"ResetTool"},{"id":"6256","type":"HelpTool"},{"id":"6257","type":"HoverTool"}]},"id":"6258","type":"Toolbar"},{"attributes":{},"id":"6231","type":"LinearScale"},{"attributes":{"format":"0.0[0000]"},"id":"6273","type":"NumeralTickFormatter"},{"attributes":{"attribution":"&amp;copy; &lt;a href=\"https://www.openstreetmap.org/copyright\"&gt;OpenStreetMap&lt;/a&gt; contributors,&amp;copy; &lt;a href=\"https://cartodb.com/attributions\"&gt;CartoDB&lt;/a&gt;","url":"https://tiles.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"},"id":"6219","type":"WMTSTileSource"},{"attributes":{},"id":"6491","type":"Selection"},{"attributes":{"dimension":"lon"},"id":"6234","type":"MercatorTicker"},{"attributes":{},"id":"6487","type":"BasicTicker"},{"attributes":{"tile_source":{"id":"6219","type":"WMTSTileSource"}},"id":"6266","type":"TileRenderer"},{"attributes":{"fill_alpha":{"value":0.7},"fill_color":{"field":"AveragePrice","transform":{"id":"6221","type":"LinearColorMapper"}},"line_color":{"field":"AveragePrice","transform":{"id":"6221","type":"LinearColorMapper"}},"size":{"units":"screen","value":30},"x":{"field":"mercator_x"},"y":{"field":"mercator_y"}},"id":"6269","type":"Circle"},{"attributes":{"callback":null},"id":"6225","type":"DataRange1d"},{"attributes":{},"id":"6251","type":"PanTool"},{"attributes":{"axis_label":"Longitude","formatter":{"id":"6236","type":"MercatorTickFormatter"},"ticker":{"id":"6234","type":"MercatorTicker"}},"id":"6233","type":"MercatorAxis"},{"attributes":{},"id":"6252","type":"WheelZoomTool"},{"attributes":{"data_source":{"id":"6220","type":"ColumnDataSource"},"glyph":{"id":"6269","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"6270","type":"Circle"},"selection_glyph":null,"view":{"id":"6272","type":"CDSView"}},"id":"6271","type":"GlyphRenderer"},{"attributes":{"overlay":{"id":"6490","type":"BoxAnnotation"}},"id":"6253","type":"BoxZoomTool"},{"attributes":{"source":{"id":"6220","type":"ColumnDataSource"}},"id":"6272","type":"CDSView"},{"attributes":{},"id":"6229","type":"LinearScale"},{"attributes":{"text":"Avocado Prices by region in the United States"},"id":"6223","type":"Title"},{"attributes":{},"id":"6254","type":"SaveTool"},{"attributes":{"color_mapper":{"id":"6221","type":"LinearColorMapper"},"formatter":{"id":"6273","type":"NumeralTickFormatter"},"label_standoff":13,"location":[0,0],"ticker":{"id":"6487","type":"BasicTicker"},"width":8},"id":"6274","type":"ColorBar"},{"attributes":{"callback":null},"id":"6227","type":"DataRange1d"},{"attributes":{},"id":"6255","type":"ResetTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"6490","type":"BoxAnnotation"},{"attributes":{"ticker":{"id":"6234","type":"MercatorTicker"}},"id":"6241","type":"Grid"},{"attributes":{"high":1.8186390532544363,"low":1.0479289940828398,"palette":["#40004b","#762a83","#9970ab","#c2a5cf","#e7d4e8","#f7f7f7","#d9f0d3","#a6dba0","#5aae61","#1b7837","#00441b"]},"id":"6221","type":"LinearColorMapper"},{"attributes":{"axis_label":"Latitude","formatter":{"id":"6245","type":"MercatorTickFormatter"},"ticker":{"id":"6243","type":"MercatorTicker"}},"id":"6242","type":"MercatorAxis"},{"attributes":{},"id":"6256","type":"HelpTool"},{"attributes":{"callback":null,"data":{"AveragePrice":{"__ndarray__":"1KERXQD6+D+96H9BR2j1PybPJZA1jPg/NvNSJ/eR9T8YfAD4g374P5MTPRD0RPg/53fFxUBT9j+OwJZIUrL5PxtKuQ6N6Pg/6f4RV+NY8z8Oq3koZAv0P3DUTmuVXvE/8Xg0nk1/8z9kGd0/4mr0PxGuR+F6FPg/IXXzTmk2+D+fTI9DJRn9PwjbYTFRxPA/NPvOqB4G9T/k/aJ+1iz4P8Oyepc8GPY/QxnfnsJ08z+iuvh3RJb0PyQxVYIZ2/Y/Lx4Ol8Nk8z+GL/CEbuD0P0T57pgkpPs/80qrdWqj9z9F1UDSchn4P/LZc4g0Hfo/k/HtKUyX8z+eh0K2QNT1P/tHXI1jFfU/F++WxcPh+D8TDLkSS6n0PzsOlWSE9/M/xtU4VvHx+T8WXQD64l72P23qYw8C3vw/tDb5b8gU9z9kf8ry2XP2PzLKd8ckIfc/BV2BKdPj9j/rd8XFQFP4P3bVvUOiivY/xDF85+0v9D8=","dtype":"float64","shape":[46]},"Total Volume":{"__ndarray__":"odPb1Ds250DfOcVJBQAQQWry35CHUxhBI3ZiJ1LS5EA1Bwlrw5ARQYgY69gElvBA1vh1NfI5R0Ehrsaxnq75QOK5BDLEJBhBS928U08UAEFzaEQXHKr1QD2dXTdi0SJBFXV0/igVGUHKFClawucGQW5Fhlh90vVANC0Wku0y/kCXGGqpxkwCQUsHiLsAWCJBpPaZkwrc9UCUXAh2mMv0QAt3015zowNBpfD9gbztNkFTF/+OCEHnQKAnciQ4oxFBtIgwXxO5+UAxK7exxYAAQdwWB0tOvCVB761JQJ7VCUEBT+gGgy8FQbdUipXm8QlBsXqXvBSqIUEgg4xxAivrQCGHSjKW9hNBOkSaDp1oAUEGpkyP9YD+QNaOS6GMFvJADFMlmE8lC0H0xb1E4jYQQUQ1EeQhhxhB/LiTeru4E0FwaTQfB/EFQfIYZIxjfOZAj5qJoaAq90AYBaxpsJ3fQDvq5p191gdBQfNm6MFUGkE=","dtype":"float64","shape":[46]},"co-ordinates":[[42.65155029296875,-73.75521087646484],[33.74831008911133,-84.39111328125],[39.183738708496094,-76.67420959472656],[43.60763931274414,-116.19339752197266],[42.35866165161133,-71.0567398071289],[42.885440826416016,-78.87846374511719],[37.25510025024414,-119.61752319335938],[35.22285842895508,-80.83795928955078],[41.88425064086914,-87.6324462890625],[39.10712814331055,-84.5041275024414],[39.96199035644531,-83.00274658203125],[32.778221130371094,-96.79512023925781],[39.74000930786133,-104.99201965332031],[42.33168029785156,-83.0479965209961],[42.9664192199707,-85.67195129394531],[40.25986099243164,-76.88223266601562],[39.801300048828125,-89.64360046386719],[29.76058006286621,-95.36968231201172],[39.766910552978516,-86.14996337890625],[30.331470489501953,-81.65621948242188],[36.17192840576172,-115.14000701904297],[34.053489685058594,-118.24532318115234],[38.25489044189453,-85.76666259765625],[25.790729522705078,-80.16264343261719],[36.16783905029297,-86.77816009521484],[29.953699111938477,-90.07775115966797],[40.71455001831055,-74.00714111328125],[44.08305740356445,-70.5822982788086],[28.538230895996094,-81.37738800048828],[39.95222091674805,-75.16217803955078],[33.44824981689453,-112.07579803466797],[40.43851089477539,-79.9973373413086],[45.51179122924805,-122.67562866210938],[35.78548812866211,-78.6427230834961],[37.540679931640625,-77.43367004394531],[37.27151870727539,-79.94056701660156],[38.57944107055664,-121.49085235595703],[32.71567916870117,-117.16171264648438],[37.77711868286133,-122.41963958740234],[47.60356903076172,-122.32945251464844],[33.90385437011719,-80.89376831054688],[47.65726089477539,-117.41227722167969],[38.627750396728516,-90.1995620727539],[43.050418853759766,-76.14737701416016],[27.946529388427734,-82.45926666259766],[34.421321868896484,-106.10840606689453]],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,26,27,28,30,31,32,33,34,36,37,38,39,40,41,42,43,44,47,48,49,50,53],"latitude":{"__ndarray__":"AAAAAGZTRUAAAACgyN9AQAAAAMCEl0NAAAAAIMfNRUAAAACg6C1FQAAAACBWcUVAAAAAIKegQkAAAACghpxBQAAAACAv8URAAAAAYLaNQ0AAAACAIvtDQAAAAMCcY0BAAAAAoLjeQ0AAAACAdCpFQAAAAKCze0VAAAAAIEMhREAAAAAAkeZDQAAAAGC1wj1AAAAAICriQ0AAAABA21Q+QAAAAMABFkJAAAAAwNgGQUAAAABAoCBDQAAAAEBtyjlAAAAAwHsVQkAAAACgJfQ9QAAAAGB2W0RAAAAAoKEKRkAAAACAyYk8QAAAAGDi+UNAAAAAQGC5QEAAAAAgIThEQAAAAGCCwUZAAAAA4IrkQUAAAAAANcVCQAAAACDBokJAAAAAICtKQ0AAAABgm1tAQAAAAKB440JAAAAAwEHNR0AAAACAsfNAQAAAACAh1EdAAAAAIFpQQ0AAAAAgdIZFQAAAAMBP8jtAAAAA4O01QUA=","dtype":"float64","shape":[46]},"longitude":{"__ndarray__":"AAAAYFVwUsAAAAAACBlVwAAAAEAmK1PAAAAAoGAMXcAAAACgocNRwAAAAMA4uFPAAAAAgIXnXcAAAAAgoTVUwAAAAAB66FXAAAAAoEMgVcAAAAAALcBUwAAAAEDjMljAAAAAQH0/WsAAAABgEsNUwAAAAEABa1XAAAAAgHY4U8AAAADAMGlWwAAAAOCo11fAAAAAAJmJVcAAAACA/2lUwAAAAOD1yFzAAAAAYLOPXcAAAAAAEXFVwAAAAMBoClTAAAAAYM2xVcAAAADg+YRWwAAAAAB1gFLAAAAAYESlUcAAAAAgJ1hUwAAAACBhylLAAAAA4NkEXMAAAABg1P9TwAAAAIA9q17AAAAAYCKpU8AAAABAwVtTwAAAAEAy/FPAAAAAIGpfXsAAAACAWUpdwAAAAGDbml7AAAAAwBWVXsAAAACAMzlUwAAAAMBiWl3AAAAAoMWMVsAAAACgbglTwAAAAKBknVTAAAAAIPCGWsA=","dtype":"float64","shape":[46]},"mercator":[[-8210392.51811858,5259083.750508309],[-9394375.757946217,3995056.08182975],[-8535333.969061691,4748024.843832338],[-12934589.845686411,5404922.879053525],[-7910000.092759722,5214857.554025923],[-8780710.418662136,5294550.996569107],[-13315761.771837356,4474724.373466823],[-8998840.464880172,4194208.1079642274],[-9755199.297867334,5143656.490108963],[-9406956.443501642,4737028.397565745],[-9239823.483954847,4860420.3580385465],[-10775183.496307869,3865903.391190419],[-11687658.165164988,4828232.7568635605],[-9244860.684118839,5210793.760869979],[-9536957.993308127,5306861.90579187],[-8558490.991430843,4903776.739193015],[-9979079.956513358,4837109.617147224],[-10616504.472089414,3472811.6174728493],[-9590170.05519901,4832127.944745786],[-9089928.772886988,3546228.8387065954],[-12817326.951293807,4324304.316653933],[-13163009.165211946,4035986.647333066],[-9547501.207409596,4615496.123693139],[-8923664.647561701,2973184.9003844424],[-9660100.593776489,4323740.410392107],[-10027409.390897447,3497599.683349129],[-8238437.26379641,4970328.593163361],[-7857185.503415923,5478304.517325322],[-9058889.394301007,3317003.4333451414],[-8367015.386276163,4859001.580546379],[-12476220.76746901,3954953.8960055136],[-8905262.857652202,4929871.610767852],[-13656188.51541073,5702455.62975655],[-8754467.888251206,4271144.872356388],[-8619876.719546353,4514740.959586777],[-8898943.214013645,4477020.871761352],[-13524299.820305917,4661607.90662218],[-13042382.192274481,3857625.6519959453],[-13627691.941965703,4547987.8278082395],[-13617652.362950604,6041154.434395675],[-9005053.096679129,4015899.3117195047],[-13070274.913196057,6050023.49574468],[-10040969.319715235,4668489.4146374585],[-8476687.234459732,5319649.2620214205],[-9179323.576067131,3242234.039922603],[-11811933.7322526,4085516.5386969275]],"mercator_x":{"__ndarray__":"1dooIfZRX8FtGEH4GOthwaqNAr+kR2DB89wPu7eraMF5xu8FnCxewSOuZc10v2DBQeSyONZlacFiTOAO9ylhwRMhiOlHm2LBWyoxjj3xYcHgjnzvoZ9hwQrB4e9RjWTBFghJRd1KZsExTeSVF6JhwSAuyb+3MGLBLc25X/NSYMHnwZv+mAhjwUJbGw/XP2TBtzDEQbNKYsF+fbsYcVZhwbb/cN51cmjBkGpJJUAbacFzGaOm3TViwVHTuBRCBWHBjTcAk9hsYsFdO4IsMiBjwVYK4lBZbV/Ba/c3YAj5XcElHZ4sSUdhwai/uNjp6l/BKxuPmOfLZ8EI43HbRfxgwaU+fpAPDGrBy41sfKSyYMEThgaX7HBgwSUz2eYv+WDBMvI/eqnLacHQHCfGWeBowUKVJH4l/mnBlkqdiz75acHU/hej/yxhwfDmOF347WjBchs7KtEmY8GysYDnAStgwVYkb3IXgmHBAZ1ut4uHZsE=","dtype":"float64","shape":[46]},"mercator_y":{"__ndarray__":"AVQI8NIPVEGyZXkK2HpOQVpZATa+HFJBt2lCuD6eVEElKXVjouRTQcvJx791MlRBZOHmF9kRUUGVxdEN0P9PQfzxXR8an1NBmLdxGQESUkGCGuoWgYpSQRSHErKXfk1B3HNwMBJrUkH/F7JwquBTQXd++Hl7PlRBOPBOL9i0UkESV39nvXNSQa9ZCc/VfkpBB7d2/N9uUkHbvFprOg5LQdwORBT0flBBVs/bUsnKTkGhluoHUptRQSPMP3MAr0ZBQt1DGmd+UEH4+3fXP69KQXVj9iXW9VJBq9sbIejlVEGF2ne3hU5JQQCsJ2UeiVJBBU+w8oQsTkEL0hbnU85SQWvuTejNwFVB46/UNwpLUEGo3mk97ThRQSDwyjcXFFFBCRkG+lnIUUFnmnTTbG5NQWnP+vRkWVFBhCPNm5ALV0G7bOanjaNOQeVHut85FFdBjWuJWhLPUUF+9cRQ+EpUQREvHAV9vEhBWwX0RIYrT0E=","dtype":"float64","shape":[46]},"region":["Albany","Atlanta","BaltimoreWashington","Boise","Boston","BuffaloRochester","California","Charlotte","Chicago","CincinnatiDayton","Columbus","DallasFtWorth","Denver","Detroit","GrandRapids","HarrisburgScranton","HartfordSpringfield","Houston","Indianapolis","Jacksonville","LasVegas","LosAngeles","Louisville","MiamiFtLauderdale","Nashville","NewOrleansMobile","NewYork","NorthernNewEngland","Orlando","Philadelphia","PhoenixTucson","Pittsburgh","Portland","RaleighGreensboro","RichmondNorfolk","Roanoke","Sacramento","SanDiego","SanFrancisco","Seattle","SouthCarolina","Spokane","StLouis","Syracuse","Tampa","WestTexNewMexico"]},"selected":{"id":"6491","type":"Selection"},"selection_policy":{"id":"6492","type":"UnionRenderers"}},"id":"6220","type":"ColumnDataSource"},{"attributes":{"dimension":"lat"},"id":"6243","type":"MercatorTicker"},{"attributes":{"dimension":"lat"},"id":"6245","type":"MercatorTickFormatter"}],"root_ids":["6222"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('6628').textContent;
+                  var render_items = [{"docid":"c9125a08-0e77-49ca-b907-5786d4eb9879","roots":{"6222":"77f40b8c-7c7f-461b-bae5-5cef98ad26bd"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
