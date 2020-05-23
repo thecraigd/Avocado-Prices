@@ -46,7 +46,7 @@ Get your own Bing Maps API Key [here](https://docs.microsoft.com/en-us/bingmaps/
 ## Featured Notebooks
 * [Avocado Prices](https://github.com/thecraigd/Avocado-Prices/blob/master/Avocado%20Prices.ipynb)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thecraigd/Avocado-Prices/master)
+* [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thecraigd/Avocado-Prices/master)
 
 ## Contact
 All feedback is warmly received. Craig Dickson can be contacted via [Twitter](https://twitter.com/craigdoesdata) as @craigdoesdata
