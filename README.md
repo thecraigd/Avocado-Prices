@@ -1,3 +1,5 @@
+[![CraigDoesData][https://www.craigdoesdata.de/img/logo/logo.png]][https://www.craigdoesdata.de/]
+
 # Mapping Avocado Prices in the US using Python - GeoPandas, GeoPy and Matplotlib
 Data Analysis project mapping price data for avocados onto a map of the USA.
 
