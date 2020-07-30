@@ -16,14 +16,12 @@ The purpose of this project was to take price data for avocados and to create an
 
 I also wanted to take the opportunity to pickle some data so I could gain some experience with this technique, and pull data into my notebook using APIs.
 
-<details>
-  <summary>### Methods used</summary>
+### Methods used
 <br>
 * EDA
 * Data visualisation
 * Geocoding
 * Geographical mapping
-</details>
 
 ### Technologies used
 * Jupyter Notebook
@@ -36,13 +34,14 @@ I also wanted to take the opportunity to pickle some data so I could gain some e
 
 
 ### Data Sources
-
+<details>
+  <summary>See Details</summary)
 Avocado price data sourced from [Kaggle](https://www.kaggle.com/neuromusic/avocado-prices) - stored [here](https://github.com/thecraigd/Avocado-Prices/blob/master/avocado.csv) as avocado.csv
 
 Shape file sourced from [United States Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national) - these can be found in the [root folder](https://github.com/thecraigd/Avocado-Prices) of this repository
 
 Get your own Bing Maps API Key [here](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key)
-
+</details>
 
 ### Getting started
 
