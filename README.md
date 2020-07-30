@@ -54,4 +54,4 @@ Get your own Bing Maps API Key [here](https://docs.microsoft.com/en-us/bingmaps/
 * [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thecraigd/Avocado-Prices/master)
 
 ## Contact
-All feedback is warmly received. Craig Dickson can be contacted via [craigdoesdata.de](https://www.craigdoesdata.de/contact.html).
+All feedback is warmly received. Craig Dickson can be contacted via his website [craigdoesdata.de](https://www.craigdoesdata.de/contact.html).
