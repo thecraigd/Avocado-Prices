@@ -16,11 +16,14 @@ The purpose of this project was to take price data for avocados and to create an
 
 I also wanted to take the opportunity to pickle some data so I could gain some experience with this technique, and pull data into my notebook using APIs.
 
-### Methods used
+<details>
+  <summary>### Methods used</summary>
+<br>
 * EDA
 * Data visualisation
 * Geocoding
 * Geographical mapping
+</details>
 
 ### Technologies used
 * Jupyter Notebook
