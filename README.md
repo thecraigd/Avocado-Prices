@@ -11,6 +11,9 @@ See the [blog post](https://towardsdatascience.com/mapping-avocado-prices-in-pyt
 
 #### Project status - Complete
 
+
+![Avocado Prices](./img/Avocado_Prices_Display.jpg)
+
 ## Introduction
 The purpose of this project was to take price data for avocados and to create an attractive and understandable visualisation representing that. I wanted to get to grips with creating maps in Matplotlib, as well as using geocoding locations - taking addresses in text form and finding their coordinates, enabling them to be represented spatially.
 
