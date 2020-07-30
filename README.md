@@ -36,10 +36,8 @@ I also wanted to take the opportunity to pickle some data so I could gain some e
 <details>
   <summary>See Details</summary)
     <br>
-Avocado price data sourced from [Kaggle](https://www.kaggle.com/neuromusic/avocado-prices) - stored [here](https://github.com/thecraigd/Avocado-Prices/blob/master/avocado.csv) as avocado.csv
-
-Shape file sourced from [United States Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national) - these can be found in the [root folder](https://github.com/thecraigd/Avocado-Prices) of this repository
-
+Avocado price data sourced from [Kaggle](https://www.kaggle.com/neuromusic/avocado-prices) - stored [here](https://github.com/thecraigd/Avocado-Prices/blob/master/data/avocado.csv) as avocado.csv
+Shape file sourced from [United States Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national) - these can be found in the [shape_files](https://github.com/thecraigd/Avocado-Prices/shape_files) folder of this repository
 Get your own Bing Maps API Key [here](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key)
 </details>
 
