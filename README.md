@@ -17,7 +17,6 @@ The purpose of this project was to take price data for avocados and to create an
 I also wanted to take the opportunity to pickle some data so I could gain some experience with this technique, and pull data into my notebook using APIs.
 
 ### Methods used
-<br>
 * EDA
 * Data visualisation
 * Geocoding
@@ -36,6 +35,7 @@ I also wanted to take the opportunity to pickle some data so I could gain some e
 ### Data Sources
 <details>
   <summary>See Details</summary)
+    <br>
 Avocado price data sourced from [Kaggle](https://www.kaggle.com/neuromusic/avocado-prices) - stored [here](https://github.com/thecraigd/Avocado-Prices/blob/master/avocado.csv) as avocado.csv
 
 Shape file sourced from [United States Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national) - these can be found in the [root folder](https://github.com/thecraigd/Avocado-Prices) of this repository
