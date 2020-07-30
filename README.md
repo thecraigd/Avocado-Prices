@@ -34,18 +34,17 @@ I also wanted to take the opportunity to pickle some data so I could gain some e
 
 ### Data Sources
 
+Avocado price data sourced from [Kaggle](https://www.kaggle.com/neuromusic/avocado-prices) - stored [here](https://github.com/thecraigd/Avocado-Prices/blob/master/avocado.csv) as avocado.csv
 
-Avocado price data sourced from [Kaggle](https://www.kaggle.com/neuromusic/avocado-prices) - stored [here](https://github.com/thecraigd/Avocado-Prices/blob/master/data/avocado.csv) as avocado.csv
-
-Shape file sourced from [United States Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national) - these can be found in the [shape_files](https://github.com/thecraigd/Avocado-Prices/shape_files) folder of this repository
+Shape file sourced from [United States Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national) - these can be found in the [root folder](https://github.com/thecraigd/Avocado-Prices) of this repository
 
 Get your own Bing Maps API Key [here](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key)
-</details>
+
 
 ### Getting started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is kept in the CSV file in the [data](https://github.com/thecraigd/Avocado-Prices/blob/master/data/avocado.csv) folder of this repository.
+2. Raw Data is kept in the CSV file in the root folder of this repo.
 3. All code is contained within the [Jupyter Notebook](https://github.com/thecraigd/Avocado-Prices/blob/master/Avocado%20Prices.ipynb) for this project, stored in the root folder as Avocado Prices.ipynb
 
 
